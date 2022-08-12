@@ -1,0 +1,3 @@
+# Snakemake config
+input:
+output: 'strand_swaps.out'
