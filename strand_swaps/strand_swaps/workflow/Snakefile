@@ -1,7 +1,13 @@
 
 configfile: os.path.join(workflow.basedir, '../', 'config', 'config.yaml')
 
-outTouch = os.path.join(config['output'], config['input'])
+allTargets = [
+    infile + '.strand_swaps.tsv',
+    infile + '.frame_swaps.tsv',
+    infile + '.overlaps.tsv'
+]
+
+infile = config['input']
 
 # Mark target rules
 target_rules = []
@@ -13,7 +19,7 @@ def targetRule(fn):
 @targetRule
 rule all:
     input:
-        outTouch
+        allTargets
 
 @targetRule
 rule print_targets:
@@ -21,7 +27,63 @@ rule print_targets:
         print("\nTop level rules are: \n", file=sys.stderr)
         print("* " + "\n* ".join(target_rules) + "\n\n", file=sys.stderr)
 
-
-rule yeet:
+rule convert_genbank:
+    input:
+        infile
     output:
-        touch(outTouch)
+        infile + '.prot'
+    params:
+        script = os.path.join(worflow.basedir, 'scripts', 'genbank2sequences.py')
+    shell:
+        """python {params.script} -g {input} -p {output}"""
+
+rule summarise_swaps:
+    input:
+        infile + '.prot'
+    output:
+        strnd = infile + '.strand_swaps.tsv',
+        frame = infile + '.frame_swaps.tsv',
+        ovlps = infile + '.overlaps.tsv'
+    run:
+        import re
+        st = open(output.strnd, 'w')
+        fr = open(output.frame, 'w')
+        ov = open(output.ovlps, 'w')
+        current = {'strand':0,'frame':0,'ovlap':0}
+        counts = {'strand':[],'frame':[],'ovlap':[]}
+        prv = {'start':None,'stop':None,'frame':None,'strand':None}
+        with open(input[0], 'r') as f:
+            for line in f:
+                line = re.sub('<|>', '', line)
+                l = line.split()
+                coords = l.split('..')
+                frame = str(coords[0] % 3) + l[1]
+                if prv['start'] is None:
+                    prv['start'] = coords[0]
+                    prv['stop'] = coords[1]
+                    prv['strand'] = l[1]
+                    prv['frame'] = frame
+                    continue
+                if l[1] == prv['strand']:
+                    current['strand'] += 1
+                    if frame == prv['frame']:
+                        current['frame'] += 1
+                    else:
+                        counts['frame'].append(current['frame'])
+                        current['frame'] = 0
+                else:
+                    counts['strand'].append(current['strand'])
+                    counts['frame'].append(current['frame'])
+                    current['strand'] = 0
+                    current['frame'] = 0
+                if coords[0] < prv['stop']:
+                    current['ovlap'] += 1
+                else:
+                    counts['ovlap'].append(current['ovlap'])
+                prv['start'] = coords[0]
+                prv['stop'] = coords[1]
+                prv['strand'] = l[1]
+                prv['frame'] = frame
+
+
+
