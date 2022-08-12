@@ -1,13 +1,13 @@
 
 configfile: os.path.join(workflow.basedir, '../', 'config', 'config.yaml')
 
+infile = config['input']
+
 allTargets = [
     infile + '.strand_swaps.tsv',
     infile + '.frame_swaps.tsv',
     infile + '.overlaps.tsv'
 ]
-
-infile = config['input']
 
 # Mark target rules
 target_rules = []
