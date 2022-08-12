@@ -8,7 +8,7 @@ with open(snakemake.input[0], 'r') as f:
         line = re.sub('<|>', '', line)
         l = line.split()
         coords = l[0].split('..')
-        frame = str(coords[0] % 3) + l[1]
+        frame = f'{coords[0] % 3} + l[1]'
         if prv['start'] is None:
             prv['start'] = coords[0]
             prv['stop'] = coords[1]
