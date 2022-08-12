@@ -8,7 +8,7 @@ with open(snakemake.input[0], 'r') as f:
         line = re.sub('<|>', '', line)
         l = line.split()
         coords = l[0].split('..')
-        frame = f'{coords[0] % 3} + l[1]'
+        frame = str(int(coords[0]) % 3) + l[1]
         if prv['start'] is None:
             prv['start'] = coords[0]
             prv['stop'] = coords[1]
@@ -38,9 +38,9 @@ with open(snakemake.input[0], 'r') as f:
 st = open(snakemake.output.strnd,'w')
 fr = open(snakemake.output.frame,'w')
 ov = open(snakemake.output.ovlps,'w')
-st.write('\n'.join(counts['strand']))
-fr.write('\n'.join(counts['frame']))
-ov.write('\n'.join(counts['ovlap']))
+st.write('\n'.join([str(x) for x in counts['strand']]))
+fr.write('\n'.join([str(x) for x in counts['frame']]))
+ov.write('\n'.join([str(x) for x in counts['ovlap']]))
 st.close()
 fr.close()
 ov.close()
