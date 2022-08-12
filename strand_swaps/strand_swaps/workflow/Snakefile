@@ -4,9 +4,9 @@ configfile: os.path.join(workflow.basedir, '../', 'config', 'config.yaml')
 infile = config['input']
 
 allTargets = [
-    infile + '.strand_swaps.tsv',
-    infile + '.frame_swaps.tsv',
-    infile + '.overlaps.tsv'
+    infile + '.consec_strand.tsv',
+    infile + '.consec_frame.tsv',
+    infile + '.consec_overlap.tsv'
 ]
 
 # Mark target rules
@@ -41,9 +41,9 @@ rule summarise_swaps:
     input:
         infile + '.prot'
     output:
-        strnd = infile + '.strand_swaps.tsv',
-        frame = infile + '.frame_swaps.tsv',
-        ovlps = infile + '.overlaps.tsv'
+        strnd = infile + '.consec_strand.tsv',
+        frame = infile + '.consec_frame.tsv',
+        ovlps = infile + '.consec_overlap.tsv'
     script:
         'scripts/summarise_swaps.py'
 
