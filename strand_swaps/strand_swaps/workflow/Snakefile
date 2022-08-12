@@ -33,7 +33,7 @@ rule convert_genbank:
     output:
         infile + '.prot'
     params:
-        script = os.path.join(worflow.basedir, 'scripts', 'genbank2sequences.py')
+        script = os.path.join(workflow.basedir, 'scripts', 'genbank2sequences.py')
     shell:
         """python {params.script} -g {input} -p {output}"""
 
