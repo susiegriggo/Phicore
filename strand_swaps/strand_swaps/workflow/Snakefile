@@ -46,9 +46,6 @@ rule summarise_swaps:
         ovlps = infile + '.overlaps.tsv'
     run:
         import re
-        st = open(output.strnd, 'w')
-        fr = open(output.frame, 'w')
-        ov = open(output.ovlps, 'w')
         current = {'strand':0,'frame':0,'ovlap':0}
         counts = {'strand':[],'frame':[],'ovlap':[]}
         prv = {'start':None,'stop':None,'frame':None,'strand':None}
@@ -84,6 +81,14 @@ rule summarise_swaps:
                 prv['stop'] = coords[1]
                 prv['strand'] = l[1]
                 prv['frame'] = frame
-
+        st = open(output.strnd,'w')
+        fr = open(output.frame,'w')
+        ov = open(output.ovlps,'w')
+        st.write('\n'.join(counts['strand']))
+        fr.write('\n'.join(counts['frame']))
+        ov.write('\n'.join(counts['ovlap']))
+        st.close()
+        fr.close()
+        ov.close()
 
 
