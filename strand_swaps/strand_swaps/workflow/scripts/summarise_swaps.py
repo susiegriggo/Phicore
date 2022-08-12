@@ -31,6 +31,7 @@ with open(snakemake.input[0], 'r') as f:
             current['ovlap'] += 1
         else:
             counts['ovlap'].append(current['ovlap'])
+            current['ovlap'] = 0
         prv['start'] = coords[0]
         prv['stop'] = coords[1]
         prv['strand'] = l[1]
