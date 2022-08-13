@@ -1,0 +1,50 @@
+
+configfile: os.path.join(workflow.basedir, '../', 'config', 'config.yaml')
+
+infile = config['input']
+
+allTargets = [
+    infile + '.consec_strand.tsv',
+    infile + '.consec_frame.tsv',
+    infile + '.consec_overlap.tsv'
+]
+
+# Mark target rules
+target_rules = []
+def targetRule(fn):
+    assert fn.__name__.startswith('__')
+    target_rules.append(fn.__name__[2:])
+    return fn
+
+@targetRule
+rule all:
+    input:
+        allTargets
+
+@targetRule
+rule print_targets:
+    run:
+        print("\nTop level rules are: \n", file=sys.stderr)
+        print("* " + "\n* ".join(target_rules) + "\n\n", file=sys.stderr)
+
+rule convert_genbank:
+    input:
+        infile
+    output:
+        infile + '.prot'
+    params:
+        script = os.path.join(workflow.basedir, 'scripts', 'genbank2sequences.py')
+    shell:
+        """python {params.script} -g {input} -p {output}"""
+
+rule summarise_swaps:
+    input:
+        infile + '.prot'
+    output:
+        strnd = infile + '.consec_strand.tsv',
+        frame = infile + '.consec_frame.tsv',
+        ovlps = infile + '.consec_overlap.tsv'
+    script:
+        'scripts/summarise_swaps.py'
+
+
