@@ -1,4 +1,4 @@
-LOCUS       cluster_001_consensus    100102 bp    DNA
+LOCUS       cluster_001_consensus    100102 bp    DNA             PHG
 DEFINITION  cluster_001_consensus
 FEATURES             Location/Qualifiers
      source          1..100102
