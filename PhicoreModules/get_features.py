@@ -5,8 +5,9 @@ from Bio.SeqFeature import SeqFeature
 from Bio.SeqRecord import SeqRecord
 from typing import List, Union
 
-__author__ = 'Przemyslaw Decewicz'
+__author__ = 'Przemyslaw Decewicz; George Bouras'
 
+# Przemyslaw Decewicz
 def get_features_of_type(seqiorec: SeqRecord, ftype: str) -> List[SeqFeature]:
     """
     Get features of a given type from SeqRecord
@@ -105,3 +106,87 @@ def get_distribution_of_stops(seqiorec: SeqRecord, window: int = 210, step: int 
         stops_distr['TGA'].extend([np.NAN]*left)
 
     return pd.DataFrame(stops_distr)
+
+
+# George Bouras
+def get_mean_cds_length_rec_window(seqiorec : SeqRecord, window_begin : int, window_end : int) -> float:
+    """
+    Get median CDS length
+    :param seqiorec: SeqRecord object
+    :return:
+    """
+
+    cds_length = []
+    for feature in seqiorec.features:
+        if feature.type == 'CDS':
+            if feature.location.start > window_begin and feature.location.start < window_end and feature.location.end > window_begin and feature.location.end < window_end:
+                cds_length.append(len(feature.location.extract(seqiorec).seq)/3)
+    if len(cds_length) == 0:
+        mean = (window_end - window_begin)/3
+    else:
+        mean = np.mean(cds_length)
+    return mean
+
+def get_rolling_gc(seqiorec : SeqRecord, window : int = 1000, step : int = 1) -> pd.DataFrame:
+    """
+    Get distribution of stops
+    :param seqiorec: SeqRecord object
+    :param window: window size
+    :param step: step size
+    :return:
+    """
+
+    gcs = ['G', 'C']
+
+    gcs_distr = {
+        'x': range(1, len(seqiorec.seq) + 1),
+        'G': [np.NAN]*int(window/2),
+        'C': [np.NAN]*int(window/2),
+        'GC': [np.NAN]*int(window/2)
+    }
+    
+    i = 0
+    while i + window/2 + 1 <= len(seqiorec.seq) - window/2:
+        window_seq = seqiorec.seq[i : i + window]
+        g = window_seq.count('G')
+        c = window_seq.count('C')
+        gcs_distr['G'].extend([g]*(step))
+        gcs_distr['C'].extend([c]*(step))
+        gcs_distr['GC'].extend([g+c]*(step))
+        i += step
+        
+    i -= step
+    left = len(seqiorec.seq) - len(gcs_distr['G'])
+    if left > 0:   
+        gcs_distr['G'].extend([np.NAN]*left)
+        gcs_distr['C'].extend([np.NAN]*left)
+        gcs_distr['GC'].extend([np.NAN]*left)
+
+    return pd.DataFrame(gcs_distr)
+
+def get_rolling_mean_cds(seqiorec : SeqRecord, window : int = 1000, step : int = 1) -> pd.DataFrame:
+    """
+    Get distribution of stops
+    :param seqiorec: SeqRecord object
+    :param window: window size
+    :param step: step size
+    :return:
+    """
+    cds_average = {
+        'x': range(1, len(seqiorec.seq) + 1),
+        'Mean_CDS': [np.NAN]*int(window/2)
+    }
+    
+    i = 0
+    while i + window/2 + 1 <= len(seqiorec.seq) - window/2:
+        cds_mean = get_mean_cds_length_rec_window(seqiorec,i, i + window )
+        cds_average['Mean_CDS'].extend([cds_mean]*(step))
+        i += step
+        
+    i -= step
+    left = len(seqiorec.seq) - len(cds_average['Mean_CDS'])
+    if left > 0:   
+        cds_average['Mean_CDS'].extend([np.NAN]*left)
+
+
+    return pd.DataFrame(cds_average)
