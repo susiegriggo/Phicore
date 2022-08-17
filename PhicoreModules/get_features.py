@@ -43,10 +43,10 @@ def get_features_lengths(seqiorec: SeqRecord, ftype: str) -> List[float]:
     :return:
     """
 
-    lengths = 0
+    lengths = []
     for feature in seqiorec.features:
         if feature.type == ftype:
-            lengths += float(len(feature.location.extract(seqiorec).seq))
+            lengths.append(float(len(feature.location.extract(seqiorec).seq)))
 
     if ftype == 'CDS':
         return [x / 3 for x in lengths]
