@@ -2,292 +2,590 @@ LOCUS       MZ130495.1    101130 bp    DNA             PHG
 DEFINITION  MZ130495.1
 FEATURES             Location/Qualifiers
      source          1..101130
-     CDS             <3..131
-                     /note="weight=-1.20E+1;"
-     CDS             182..280
-                     /note="weight=-3.24E+0;"
-     CDS             393..1415
-                     /note="weight=-1.16E+9;"
-     CDS             1531..2040
-                     /note="weight=-1.35E+4;"
-     CDS             2012..2653
-                     /note="weight=-1.57E+4;"
-     CDS             2687..3322
-                     /note="weight=-2.34E+5;"
-     CDS             3352..4338
-                     /note="weight=-5.18E+5;"
-     CDS             4357..4785
-                     /note="weight=-7.16E+3;"
-     CDS             4834..5397
-                     /note="weight=-1.23E+5;"
-     CDS             5537..6181
-                     /note="weight=-1.09E+6;"
-     CDS             6229..6603
-                     /note="weight=-9.35E+1;"
-     CDS             6635..7579
-                     /note="weight=-1.66E+7;"
-     CDS             7573..11745
-                     /note="weight=-1.01E+39;"
-     CDS             11747..13591
-                     /note="weight=-2.92E+15;"
-     CDS             13581..15554
-                     /note="weight=-3.84E+18;"
-     CDS             15557..29542
-                     /note="weight=-8.93E+142;"
-     CDS             29554..34230
-                     /note="weight=-5.78E+48;"
-     CDS             complement(34314..34814)
-                     /note="weight=-2.66E+5;"
-     CDS             complement(34756..35772)
-                     /note="weight=-2.70E+10;"
-     CDS             complement(35759..36424)
-                     /note="weight=-7.39E+7;"
-     CDS             complement(36455..36859)
-                     /note="weight=-4.49E+4;"
-     CDS             complement(36798..37811)
-                     /note="weight=-5.69E+7;"
-     CDS             complement(37859..37966)
-                     /note="weight=-1.41E+0;"
-     CDS             complement(38035..38664)
-                     /note="weight=-4.57E+6;"
-     CDS             complement(38681..39421)
-                     /note="weight=-6.29E+8;"
-     CDS             complement(39496..40011)
-                     /note="weight=-2.42E+2;"
-     CDS             complement(40026..41141)
-                     /note="weight=-3.38E+9;"
-     CDS             41159..41269
-                     /note="weight=-2.59E+0;"
-     CDS             41278..41385
-                     /note="weight=-7.32E-2;"
-     CDS             41444..41575
-                     /note="weight=-8.03E+0;"
-     CDS             complement(41614..43593)
-                     /note="weight=-4.39E+23;"
-     CDS             complement(43717..43944)
-                     /note="weight=-7.43E+1;"
-     CDS             complement(43970..44761)
-                     /note="weight=-6.88E+7;"
-     CDS             complement(44778..44993)
-                     /note="weight=-2.64E+1;"
-     CDS             complement(44996..45523)
-                     /note="weight=-4.20E+4;"
-     CDS             complement(45529..45672)
-                     /note="weight=-2.23E-1;"
-     CDS             complement(45719..46945)
-                     /note="weight=-1.64E+9;"
-     CDS             complement(47036..47194)
-                     /note="weight=-1.51E-1;"
-     CDS             complement(47164..47268)
-                     /note="weight=-1.92E+0;"
-     CDS             complement(47302..47424)
-                     /note="weight=-9.05E+0;"
-     CDS             complement(47424..47675)
-                     /note="weight=-3.12E+0;"
-     CDS             complement(47688..47825)
-                     /note="weight=-8.91E+0;"
-     CDS             47862..48026
-                     /note="weight=-1.24E+1;"
-     CDS             48069..48212
-                     /note="weight=-3.24E+0;"
-     CDS             48212..48319
-                     /note="weight=-1.38E+0;"
-     CDS             48322..48504
-                     /note="weight=-4.40E+0;"
-     CDS             48566..48670
-                     /note="weight=-7.51E-2;"
-     CDS             48720..48827
-                     /note="weight=-2.38E-1;"
-     CDS             48912..49025
-                     /note="weight=-2.69E+0;"
-     CDS             complement(49045..49473)
-                     /note="weight=-1.85E+3;"
-     CDS             complement(49463..49864)
-                     /note="weight=-1.72E+3;"
-     CDS             complement(49936..51438)
-                     /note="weight=-1.68E+10;"
-     CDS             complement(51511..51882)
-                     /note="weight=-2.19E+3;"
-     CDS             complement(51898..52458)
-                     /note="weight=-7.13E+3;"
-     CDS             complement(52507..52899)
-                     /note="weight=-3.56E+2;"
-     CDS             complement(52850..53347)
-                     /note="weight=-1.27E+5;"
-     CDS             complement(53403..53492)
-                     /note="weight=-1.70E+0;"
-     CDS             complement(53520..53798)
-                     /note="weight=-3.85E+3;"
-     CDS             complement(53810..54034)
-                     /note="weight=-3.80E+0;"
-     CDS             complement(54110..54295)
-                     /note="weight=-5.90E+0;"
-     CDS             complement(54317..54442)
-                     /note="weight=-4.48E+0;"
-     CDS             54495..54695
-                     /note="weight=-1.38E+0;"
-     CDS             54701..54967
-                     /note="weight=-1.94E+1;"
-     CDS             complement(54944..55411)
-                     /note="weight=-9.64E+2;"
-     CDS             complement(55449..55682)
-                     /note="weight=-1.51E+1;"
-     CDS             complement(55723..55860)
-                     /note="weight=-2.12E+0;"
-     CDS             complement(55925..56071)
-                     /note="weight=-2.23E+1;"
-     CDS             complement(56144..56629)
-                     /note="weight=-4.59E+5;"
-     CDS             complement(56647..56910)
-                     /note="weight=-2.50E+3;"
-     CDS             complement(56892..57134)
-                     /note="weight=-5.32E+2;"
-     CDS             complement(57155..57244)
-                     /note="weight=-2.90E-1;"
-     CDS             complement(57254..57358)
-                     /note="weight=-2.41E+0;"
-     CDS             complement(57380..57517)
-                     /note="weight=-1.98E+0;"
-     CDS             complement(57538..58002)
-                     /note="weight=-8.53E+3;"
-     CDS             complement(58028..58405)
-                     /note="weight=-1.05E+3;"
-     CDS             complement(58425..58730)
-                     /note="weight=-1.82E+3;"
-     CDS             58743..58847
-                     /note="weight=-1.22E+0;"
-     CDS             58889..59077
-                     /note="weight=-2.17E+0;"
-     CDS             complement(59131..59328)
-                     /note="weight=-9.68E-1;"
-     CDS             59333..59437
-                     /note="weight=-7.28E-2;"
-     CDS             59448..59567
-                     /note="weight=-1.78E-1;"
-     CDS             complement(59648..60094)
-                     /note="weight=-2.57E+5;"
-     CDS             60167..60262
-                     /note="weight=-2.74E-1;"
-     CDS             complement(60322..60456)
-                     /note="weight=-4.55E+0;"
-     CDS             complement(60484..60594)
-                     /note="weight=-2.18E-1;"
-     CDS             complement(60604..60756)
+     CDS             <3..158
+                     /note="weight=-1.72E+1;"
+     CDS             199..396
+                     /note="weight=-6.39E-1;"
+     CDS             393..509
+                     /note="weight=-4.56E+0;"
+     CDS             502..648
+                     /note="weight=-1.88E-1;"
+     CDS             663..953
+                     /note="weight=-2.17E+3;"
+     CDS             934..1044
+                     /note="weight=-1.21E-1;"
+     CDS             1152..1406
+                     /note="weight=-7.57E+0;"
+     CDS             1384..1818
+                     /note="weight=-8.08E+2;"
+     CDS             1867..2085
+                     /note="weight=-2.40E+1;"
+     CDS             2094..2186
+                     /note="weight=-9.43E-2;"
+     CDS             complement(2191..2427)
+                     /note="weight=-4.38E+0;"
+     CDS             complement(2444..2551)
+                     /note="weight=-3.39E-1;"
+     CDS             complement(2584..2679)
+                     /note="weight=-2.01E-1;"
+     CDS             2687..3358
+                     /note="weight=-6.22E+5;"
+     CDS             3352..4740
+                     /note="weight=-1.36E+9;"
+     CDS             4722..4811
+                     /note="weight=-1.56E+0;"
+     CDS             4834..4974
+                     /note="weight=-3.28E+1;"
+     CDS             complement(5068..5211)
+                     /note="weight=-9.10E-2;"
+     CDS             complement(5275..5394)
+                     /note="weight=-9.17E-2;"
+     CDS             5365..5604
+                     /note="weight=-2.75E+1;"
+     CDS             5654..5857
+                     /note="weight=-5.43E+2;"
+     CDS             complement(5965..6138)
+                     /note="weight=-3.71E-1;"
+     CDS             complement(6123..6398)
+                     /note="weight=-3.97E+1;"
+     CDS             6515..6775
+                     /note="weight=-5.88E+0;"
+     CDS             6896..7090
+                     /note="weight=-2.36E+1;"
+     CDS             7178..7576
+                     /note="weight=-5.01E+2;"
+     CDS             7639..8352
+                     /note="weight=-2.87E+4;"
+     CDS             8365..8532
+                     /note="weight=-2.51E+0;"
+     CDS             8557..8673
+                     /note="weight=-1.65E+1;"
+     CDS             8720..8845
+                     /note="weight=-3.92E+0;"
+     CDS             complement(8872..9015)
+                     /note="weight=-9.48E-2;"
+     CDS             complement(9040..9189)
+                     /note="weight=-1.47E+0;"
+     CDS             9181..9405
+                     /note="weight=-3.61E+2;"
+     CDS             9433..10143
+                     /note="weight=-1.61E+7;"
+     CDS             complement(10194..10379)
+                     /note="weight=-1.96E+1;"
+     CDS             complement(10381..10494)
+                     /note="weight=-1.55E+0;"
+     CDS             complement(10491..10739)
+                     /note="weight=-1.36E+0;"
+     CDS             10907..11182
+                     /note="weight=-1.29E+0;"
+     CDS             11284..11712
+                     /note="weight=-4.50E+3;"
+     CDS             11781..11924
+                     /note="weight=-4.60E+0;"
+     CDS             12023..12274
+                     /note="weight=-2.15E+2;"
+     CDS             complement(12318..12476)
+                     /note="weight=-2.66E-1;"
+     CDS             complement(12479..12706)
+                     /note="weight=-2.29E+0;"
+     CDS             12707..13594
+                     /note="weight=-4.82E+4;"
+     CDS             complement(13639..13767)
+                     /note="weight=-3.64E+0;"
+     CDS             13956..14240
+                     /note="weight=-1.58E+2;"
+     CDS             14316..14627
+                     /note="weight=-3.31E+2;"
+     CDS             14605..14694
                      /note="weight=-1.89E+0;"
-     CDS             complement(60791..60922)
-                     /note="weight=-1.38E-1;"
-     CDS             60899..60994
-                     /note="weight=-1.16E-1;"
-     CDS             complement(61154..61246)
-                     /note="weight=-2.63E+0;"
-     CDS             complement(61287..61487)
-                     /note="weight=-3.75E+0;"
-     CDS             complement(61533..61643)
-                     /note="weight=-8.43E-2;"
-     CDS             complement(61746..62462)
-                     /note="weight=-3.19E+5;"
-     CDS             complement(62504..62596)
-                     /note="weight=-1.90E+0;"
-     CDS             complement(62662..63471)
-                     /note="weight=-6.84E+4;"
-     CDS             complement(63552..63782)
-                     /note="weight=-1.03E+1;"
-     CDS             complement(63837..64004)
-                     /note="weight=-8.90E+0;"
-     CDS             complement(64084..64227)
-                     /note="weight=-1.12E+1;"
-     CDS             complement(64291..64389)
-                     /note="weight=-1.21E+1;"
-     CDS             64396..64521
-                     /note="weight=-1.02E-1;"
-     CDS             64561..65004
-                     /note="weight=-2.09E+3;"
-     CDS             65006..65893
-                     /note="weight=-4.72E+8;"
-     CDS             complement(65916..66041)
-                     /note="weight=-3.64E-1;"
-     CDS             66162..66278
-                     /note="weight=-1.24E+0;"
-     CDS             66241..66582
-                     /note="weight=-6.73E+2;"
-     CDS             66542..66751
-                     /note="weight=-1.87E+1;"
-     CDS             66784..67143
-                     /note="weight=-6.05E+3;"
-     CDS             67121..67225
-                     /note="weight=-1.14E-1;"
-     CDS             67287..67664
-                     /note="weight=-9.13E+3;"
-     CDS             67657..68034
-                     /note="weight=-7.76E+2;"
-     CDS             68024..68407
-                     /note="weight=-1.20E+2;"
-     CDS             68554..69000
-                     /note="weight=-9.55E+5;"
-     CDS             68981..69361
-                     /note="weight=-7.09E+3;"
-     CDS             69422..69793
-                     /note="weight=-1.17E+4;"
-     CDS             69795..70124
-                     /note="weight=-4.07E+3;"
-     CDS             70096..70626
-                     /note="weight=-3.66E+5;"
-     CDS             70687..70824
-                     /note="weight=-3.20E+0;"
-     CDS             70842..71000
-                     /note="weight=-3.79E-1;"
-     CDS             71085..71189
-                     /note="weight=-1.79E-1;"
-     CDS             71243..71476
-                     /note="weight=-4.81E+2;"
-     CDS             71460..73541
-                     /note="weight=-5.54E+17;"
-     CDS             73544..76063
-                     /note="weight=-8.57E+21;"
-     CDS             76066..76530
-                     /note="weight=-6.45E+2;"
-     CDS             76602..76868
-                     /note="weight=-3.03E+2;"
-     CDS             77007..78470
-                     /note="weight=-4.98E+11;"
-     CDS             78442..78645
-                     /note="weight=-8.54E+0;"
-     CDS             78667..79827
-                     /note="weight=-1.93E+9;"
-     CDS             79859..81328
-                     /note="weight=-1.05E+9;"
-     CDS             81401..82153
-                     /note="weight=-5.99E+5;"
-     CDS             82153..82863
-                     /note="weight=-1.38E+8;"
-     CDS             82866..83537
-                     /note="weight=-2.18E+6;"
-     CDS             83503..84126
-                     /note="weight=-2.19E+2;"
-     CDS             84154..85128
-                     /note="weight=-3.88E+8;"
-     CDS             85229..85927
-                     /note="weight=-6.49E+3;"
-     CDS             85939..89190
-                     /note="weight=-9.18E+23;"
-     CDS             89272..89367
-                     /note="weight=-2.26E+0;"
-     CDS             89455..93174
-                     /note="weight=-5.16E+28;"
-     CDS             93167..95407
-                     /note="weight=-1.82E+12;"
-     CDS             95407..95598
-                     /note="weight=-1.59E+1;"
-     CDS             95573..96019
-                     /note="weight=-1.50E+5;"
-     CDS             96023..96832
-                     /note="weight=-1.54E+8;"
-     CDS             96838..97458
+     CDS             complement(14804..14896)
+                     /note="weight=-1.61E-1;"
+     CDS             14914..15024
+                     /note="weight=-2.72E-1;"
+     CDS             15021..15596
+                     /note="weight=-1.80E+4;"
+     CDS             15557..15820
+                     /note="weight=-1.33E+2;"
+     CDS             15950..16120
+                     /note="weight=-6.58E+1;"
+     CDS             16161..16265
+                     /note="weight=-2.20E+0;"
+     CDS             16247..16459
+                     /note="weight=-1.32E+1;"
+     CDS             16538..16987
                      /note="weight=-3.57E+5;"
-     CDS             97458..98537
-                     /note="weight=-1.78E+10;"
-     CDS             98636..>101128
-                     /note="weight=-5.86E+21;"
+     CDS             17049..17165
+                     /note="weight=-1.22E-1;"
+     CDS             17162..17254
+                     /note="weight=-2.03E+1;"
+     CDS             17255..17398
+                     /note="weight=-4.06E+1;"
+     CDS             17432..17590
+                     /note="weight=-6.53E+1;"
+     CDS             17594..17857
+                     /note="weight=-1.94E+2;"
+     CDS             17936..18076
+                     /note="weight=-1.30E+0;"
+     CDS             18080..18220
+                     /note="weight=-1.31E+0;"
+     CDS             18282..18398
+                     /note="weight=-2.34E-1;"
+     CDS             complement(18608..18709)
+                     /note="weight=-7.45E-2;"
+     CDS             complement(18740..18847)
+                     /note="weight=-7.82E-2;"
+     CDS             complement(18920..19093)
+                     /note="weight=-1.11E-1;"
+     CDS             19097..19345
+                     /note="weight=-1.08E+2;"
+     CDS             19364..19573
+                     /note="weight=-1.66E+0;"
+     CDS             19602..19691
+                     /note="weight=-2.59E+0;"
+     CDS             19769..20218
+                     /note="weight=-1.88E+4;"
+     CDS             20285..20413
+                     /note="weight=-2.06E+1;"
+     CDS             complement(20419..20676)
+                     /note="weight=-6.82E+0;"
+     CDS             20720..21478
+                     /note="weight=-5.54E+8;"
+     CDS             21494..22168
+                     /note="weight=-5.64E+6;"
+     CDS             22172..22438
+                     /note="weight=-1.64E+2;"
+     CDS             22511..22615
+                     /note="weight=-5.99E-1;"
+     CDS             22691..23470
+                     /note="weight=-1.48E+8;"
+     CDS             23513..23818
+                     /note="weight=-1.13E+3;"
+     CDS             complement(23788..23979)
+                     /note="weight=-2.32E+0;"
+     CDS             23990..24433
+                     /note="weight=-2.70E+4;"
+     CDS             24536..24682
+                     /note="weight=-6.65E+1;"
+     CDS             24740..24961
+                     /note="weight=-2.05E+2;"
+     CDS             24980..25141
+                     /note="weight=-7.08E+0;"
+     CDS             25235..25651
+                     /note="weight=-8.06E+4;"
+     CDS             25781..26167
+                     /note="weight=-7.07E+4;"
+     CDS             26130..26240
+                     /note="weight=-1.38E-1;"
+     CDS             26348..26593
+                     /note="weight=-2.20E+2;"
+     CDS             complement(26738..26884)
+                     /note="weight=-1.34E-1;"
+     CDS             complement(26906..27031)
+                     /note="weight=-8.99E-2;"
+     CDS             complement(27033..27173)
+                     /note="weight=-1.35E+1;"
+     CDS             27239..27406
+                     /note="weight=-6.81E+1;"
+     CDS             27381..27494
+                     /note="weight=-2.06E-1;"
+     CDS             27584..27949
+                     /note="weight=-3.88E+4;"
+     CDS             28109..28390
+                     /note="weight=-5.93E+3;"
+     CDS             28508..28657
+                     /note="weight=-1.02E+1;"
+     CDS             28667..28957
+                     /note="weight=-1.06E+2;"
+     CDS             28929..29123
+                     /note="weight=-9.06E+0;"
+     CDS             29174..29470
+                     /note="weight=-8.55E+2;"
+     CDS             29530..29697
+                     /note="weight=-1.03E+2;"
+     CDS             complement(29649..30023)
+                     /note="weight=-1.03E+2;"
+     CDS             30029..30220
+                     /note="weight=-8.90E+0;"
+     CDS             30253..30459
+                     /note="weight=-4.87E+2;"
+     CDS             30550..30876
+                     /note="weight=-1.60E+2;"
+     CDS             30895..31011
+                     /note="weight=-9.60E+0;"
+     CDS             31024..31131
+                     /note="weight=-2.45E+0;"
+     CDS             31228..31485
+                     /note="weight=-2.54E+1;"
+     CDS             complement(31552..31776)
+                     /note="weight=-1.19E-1;"
+     CDS             complement(31817..31978)
+                     /note="weight=-5.21E+0;"
+     CDS             complement(32017..32121)
+                     /note="weight=-1.46E+0;"
+     CDS             32123..32344
+                     /note="weight=-3.35E+0;"
+     CDS             32341..32472
+                     /note="weight=-4.77E+0;"
+     CDS             complement(32682..33104)
+                     /note="weight=-5.66E+2;"
+     CDS             complement(33082..33297)
+                     /note="weight=-2.65E+0;"
+     CDS             complement(33357..33482)
+                     /note="weight=-4.48E-1;"
+     CDS             33451..33756
+                     /note="weight=-1.03E+3;"
+     CDS             complement(33746..33841)
+                     /note="weight=-3.93E+0;"
+     CDS             complement(33891..34094)
+                     /note="weight=-2.24E+2;"
+     CDS             complement(34060..34179)
+                     /note="weight=-9.79E-2;"
+     CDS             complement(34290..34814)
+                     /note="weight=-5.27E+5;"
+     CDS             complement(34792..35772)
+                     /note="weight=-1.84E+10;"
+     CDS             complement(35762..36424)
+                     /note="weight=-6.66E+7;"
+     CDS             complement(36473..36733)
+                     /note="weight=-7.06E+2;"
+     CDS             complement(36804..37811)
+                     /note="weight=-4.20E+7;"
+     CDS             complement(37833..37964)
+                     /note="weight=-3.66E-1;"
+     CDS             complement(37990..38733)
+                     /note="weight=-1.86E+7;"
+     CDS             complement(38654..39421)
+                     /note="weight=-1.09E+9;"
+     CDS             complement(39418..40011)
+                     /note="weight=-5.03E+2;"
+     CDS             complement(40017..41006)
+                     /note="weight=-1.91E+9;"
+     CDS             complement(40972..43944)
+                     /note="weight=-2.63E+31;"
+     CDS             complement(43928..44761)
+                     /note="weight=-4.51E+8;"
+     CDS             complement(44709..44993)
+                     /note="weight=-1.23E+2;"
+     CDS             complement(44990..45523)
+                     /note="weight=-6.41E+4;"
+     tRNA            complement(45579..45652)
+                     /note="weight=-2.00E+1;"
+     CDS             complement(45643..45744)
+                     /note="weight=-2.09E-1;"
+     CDS             complement(45746..46309)
+                     /note="weight=-1.28E+5;"
+     CDS             complement(46319..46945)
+                     /note="weight=-6.52E+3;"
+     CDS             complement(47043..47222)
+                     /note="weight=-3.51E-1;"
+     CDS             47292..47756
+                     /note="weight=-3.66E+1;"
+     CDS             complement(47773..47970)
+                     /note="weight=-1.54E+1;"
+     CDS             48004..48126
+                     /note="weight=-8.29E-2;"
+     CDS             48123..48431
+                     /note="weight=-4.50E+1;"
+     CDS             48504..48686
+                     /note="weight=-1.03E+1;"
+     CDS             48720..48812
+                     /note="weight=-2.00E-1;"
+     CDS             complement(48829..48966)
+                     /note="weight=-1.47E+0;"
+     CDS             complement(49051..49446)
+                     /note="weight=-9.24E+2;"
+     CDS             complement(49370..49864)
+                     /note="weight=-2.88E+3;"
+     CDS             complement(49912..52899)
+                     /note="weight=-2.52E+21;"
+     CDS             complement(52886..53347)
+                     /note="weight=-1.13E+5;"
+     CDS             complement(53424..53798)
+                     /note="weight=-8.02E+3;"
+     CDS             53865..54056
+                     /note="weight=-6.91E-1;"
+     tRNA            complement(54199..54278)
+                     /note="weight=-2.00E+1;"
+     CDS             54360..54464
+                     /note="weight=-1.07E-1;"
+     CDS             54495..54608
+                     /note="weight=-2.77E-1;"
+     CDS             complement(54670..54792)
+                     /note="weight=-1.09E+1;"
+     CDS             complement(54789..54881)
+                     /note="weight=-2.53E-1;"
+     CDS             complement(54908..55486)
+                     /note="weight=-4.16E+3;"
+     CDS             complement(55455..55835)
+                     /note="weight=-1.05E+2;"
+     CDS             complement(55868..56071)
+                     /note="weight=-4.23E+1;"
+     CDS             complement(56062..56160)
+                     /note="weight=-1.72E+0;"
+     CDS             complement(56162..56629)
+                     /note="weight=-2.28E+5;"
+     CDS             complement(56626..56910)
+                     /note="weight=-2.64E+3;"
+     CDS             complement(56904..57134)
+                     /note="weight=-4.80E+2;"
+     CDS             complement(57139..57285)
+                     /note="weight=-4.20E+0;"
+     CDS             complement(57269..57358)
+                     /note="weight=-2.09E+0;"
+     CDS             complement(57359..57487)
+                     /note="weight=-2.63E-1;"
+     CDS             complement(57514..58002)
+                     /note="weight=-1.03E+4;"
+     CDS             complement(57992..58405)
+                     /note="weight=-2.29E+3;"
+     CDS             complement(58353..58730)
+                     /note="weight=-4.25E+3;"
+     tRNA            complement(58760..58842)
+                     /note="weight=-2.00E+1;"
+     CDS             58889..59002
+                     /note="weight=-1.55E+0;"
+     CDS             59028..59147
+                     /note="weight=-2.09E+0;"
+     CDS             complement(59209..59454)
+                     /note="weight=-1.14E+1;"
+     CDS             complement(59520..59612)
+                     /note="weight=-1.72E-1;"
+     CDS             complement(59609..60094)
+                     /note="weight=-4.50E+5;"
+     CDS             60162..60371
+                     /note="weight=-6.65E+0;"
+     CDS             60406..60495
+                     /note="weight=-8.30E-2;"
+     CDS             60499..60618
+                     /note="weight=-1.10E-1;"
+     CDS             60619..60738
+                     /note="weight=-3.03E-1;"
+     CDS             60710..60814
+                     /note="weight=-3.62E-1;"
+     CDS             60879..61061
+                     /note="weight=-3.93E-1;"
+     CDS             61096..61191
+                     /note="weight=-2.64E+0;"
+     CDS             complement(61186..61386)
+                     /note="weight=-5.62E+0;"
+     CDS             complement(61430..61540)
+                     /note="weight=-1.90E-1;"
+     CDS             complement(61546..61665)
+                     /note="weight=-5.89E+0;"
+     CDS             complement(61656..62576)
+                     /note="weight=-5.24E+6;"
+     CDS             complement(62627..62776)
+                     /note="weight=-1.71E-1;"
+     CDS             complement(62821..63471)
+                     /note="weight=-7.28E+4;"
+     CDS             complement(63443..63607)
+                     /note="weight=-7.34E-1;"
+     CDS             complement(63643..63831)
+                     /note="weight=-6.38E-1;"
+     CDS             complement(63843..64004)
+                     /note="weight=-8.82E+0;"
+     CDS             complement(64036..64227)
+                     /note="weight=-1.20E+1;"
+     CDS             complement(64285..64569)
+                     /note="weight=-7.74E+1;"
+     CDS             64561..65040
+                     /note="weight=-3.06E+3;"
+     CDS             65006..65947
+                     /note="weight=-1.70E+9;"
+     CDS             65955..66056
+                     /note="weight=-1.68E+0;"
+     CDS             66053..66244
+                     /note="weight=-3.11E+1;"
+     CDS             66241..66555
+                     /note="weight=-3.02E+2;"
+     CDS             complement(66503..66739)
+                     /note="weight=-2.32E-1;"
+     CDS             66784..67167
+                     /note="weight=-8.96E+3;"
+     CDS             67164..67733
+                     /note="weight=-3.27E+5;"
+     CDS             67657..68142
+                     /note="weight=-4.33E+3;"
+     CDS             68192..68461
+                     /note="weight=-9.59E+0;"
+     CDS             68554..68991
+                     /note="weight=-7.81E+5;"
+     CDS             68960..69412
+                     /note="weight=-2.15E+4;"
+     CDS             69422..69856
+                     /note="weight=-2.81E+4;"
+     CDS             complement(69947..70069)
+                     /note="weight=-1.72E-1;"
+     CDS             70033..70665
+                     /note="weight=-1.02E+6;"
+     CDS             70751..70891
+                     /note="weight=-3.32E-1;"
+     CDS             70884..70997
+                     /note="weight=-2.23E+0;"
+     CDS             71106..71237
+                     /note="weight=-2.14E+0;"
+     CDS             71243..71587
+                     /note="weight=-6.32E+2;"
+     CDS             71734..71946
+                     /note="weight=-5.30E-1;"
+     CDS             71943..72038
+                     /note="weight=-2.01E-1;"
+     CDS             72039..72656
+                     /note="weight=-3.20E+6;"
+     CDS             72714..72968
+                     /note="weight=-2.89E+1;"
+     CDS             73083..73409
+                     /note="weight=-8.84E+1;"
+     CDS             complement(73484..74032)
+                     /note="weight=-3.69E-1;"
+     CDS             74039..74911
+                     /note="weight=-8.93E+6;"
+     CDS             74924..75049
+                     /note="weight=-4.18E+1;"
+     CDS             75104..75256
+                     /note="weight=-5.44E+1;"
+     CDS             75278..75775
+                     /note="weight=-5.20E+3;"
+     CDS             75800..76069
+                     /note="weight=-1.11E+2;"
+     CDS             76066..76533
+                     /note="weight=-5.67E+2;"
+     CDS             76553..76645
+                     /note="weight=-4.23E-1;"
+     CDS             76716..76985
+                     /note="weight=-1.35E+2;"
+     CDS             complement(77093..77308)
+                     /note="weight=-7.21E-1;"
+     CDS             complement(77313..77414)
+                     /note="weight=-7.26E-2;"
+     CDS             complement(77411..77641)
+                     /note="weight=-1.73E+1;"
+     CDS             complement(77748..78035)
+                     /note="weight=-2.69E+0;"
+     CDS             complement(78044..78352)
+                     /note="weight=-2.84E+0;"
+     CDS             78388..79311
+                     /note="weight=-1.98E+8;"
+     CDS             79301..79423
+                     /note="weight=-1.64E+0;"
+     CDS             79504..79914
+                     /note="weight=-1.51E+3;"
+     CDS             79920..80060
+                     /note="weight=-8.76E-2;"
+     CDS             80030..81364
+                     /note="weight=-3.94E+8;"
+     CDS             complement(81373..81732)
+                     /note="weight=-1.83E+1;"
+     CDS             81743..82156
+                     /note="weight=-1.06E+4;"
+     CDS             complement(82108..82521)
+                     /note="weight=-6.94E+0;"
+     CDS             82630..82842
+                     /note="weight=-3.25E+2;"
+     CDS             82866..83021
+                     /note="weight=-9.87E+0;"
+     CDS             83136..83456
+                     /note="weight=-3.08E+3;"
+     CDS             83570..83878
+                     /note="weight=-2.14E+2;"
+     CDS             83875..83967
+                     /note="weight=-2.67E+0;"
+     CDS             83976..84113
+                     /note="weight=-7.54E-1;"
+     CDS             84127..85263
+                     /note="weight=-2.78E+9;"
+     CDS             85229..85498
+                     /note="weight=-5.60E+1;"
+     CDS             85547..85639
+                     /note="weight=-2.35E+0;"
+     CDS             85713..85823
+                     /note="weight=-2.32E-1;"
+     CDS             85854..85955
+                     /note="weight=-2.28E+0;"
+     CDS             85939..86238
+                     /note="weight=-1.07E+3;"
+     CDS             86363..86470
+                     /note="weight=-1.10E+1;"
+     CDS             86434..88284
+                     /note="weight=-4.71E+13;"
+     CDS             88292..88387
+                     /note="weight=-2.00E+0;"
+     CDS             complement(88467..88715)
+                     /note="weight=-7.87E+1;"
+     CDS             complement(88753..88953)
+                     /note="weight=-9.59E-2;"
+     CDS             complement(89013..89183)
+                     /note="weight=-1.23E+0;"
+     CDS             89196..89384
+                     /note="weight=-1.26E+1;"
+     CDS             89415..89558
+                     /note="weight=-1.03E+1;"
+     CDS             89653..90729
+                     /note="weight=-1.99E+9;"
+     CDS             90808..91236
+                     /note="weight=-1.33E+3;"
+     CDS             complement(91330..91623)
+                     /note="weight=-3.01E+0;"
+     CDS             complement(91620..91805)
+                     /note="weight=-4.91E+0;"
+     CDS             91855..92139
+                     /note="weight=-1.54E+2;"
+     CDS             92155..92283
+                     /note="weight=-9.92E+0;"
+     CDS             complement(92308..92433)
+                     /note="weight=-1.66E+0;"
+     CDS             complement(92457..92756)
+                     /note="weight=-2.50E+2;"
+     CDS             complement(92865..93188)
+                     /note="weight=-4.27E+0;"
+     CDS             complement(93381..93488)
+                     /note="weight=-1.43E+0;"
+     CDS             93480..93815
+                     /note="weight=-9.68E+0;"
+     CDS             93906..94028
+                     /note="weight=-3.69E+0;"
+     CDS             94122..94352
+                     /note="weight=-1.64E+1;"
+     CDS             94388..94780
+                     /note="weight=-1.63E+1;"
+     CDS             94782..94907
+                     /note="weight=-4.41E+0;"
+     CDS             complement(94976..95425)
+                     /note="weight=-9.14E-1;"
+     CDS             complement(95472..95690)
+                     /note="weight=-4.31E+0;"
+     CDS             95735..96067
+                     /note="weight=-1.87E+4;"
+     CDS             complement(96167..96760)
+                     /note="weight=-5.39E-1;"
+     CDS             96838..96930
+                     /note="weight=-4.00E+0;"
+     CDS             97025..97141
+                     /note="weight=-3.66E-1;"
+     CDS             97142..97288
+                     /note="weight=-2.86E+0;"
+     CDS             97306..97404
+                     /note="weight=-4.31E+0;"
+     CDS             97458..97610
+                     /note="weight=-1.78E+1;"
+     CDS             97611..97853
+                     /note="weight=-1.45E+0;"
+     CDS             97959..98144
+                     /note="weight=-2.46E+2;"
+     CDS             98325..98453
+                     /note="weight=-1.25E+1;"
+     CDS             98537..99010
+                     /note="weight=-1.57E+4;"
+     CDS             98997..99200
+                     /note="weight=-3.45E+0;"
+     CDS             99222..99368
+                     /note="weight=-2.39E+0;"
+     CDS             99356..99481
+                     /note="weight=-2.25E+1;"
+     CDS             99536..100897
+                     /note="weight=-2.54E+12;"
+     CDS             complement(100997..>101128)
+                     /note="weight=-1.38E+0;"
 ORIGIN
         1 ctgcgaatgt cgggactcga attaccttct atggtgaacc ggcattgcca gctgctccag
        61 ctacattaga gttaaatgat gaggattatg aacaattgga ttctatagaa tctgaagaaa

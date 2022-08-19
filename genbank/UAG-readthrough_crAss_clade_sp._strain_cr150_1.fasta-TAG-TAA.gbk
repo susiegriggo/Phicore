@@ -240,6 +240,8 @@ FEATURES             Location/Qualifiers
                      /note="weight=-2.02E+4;"
      CDS             complement(41614..43593)
                      /note="weight=-1.15E+23;"
+     tRNA            complement(43615..43685)
+                     /note="weight=-2.00E+1;"
      CDS             complement(43717..43944)
                      /note="weight=-6.15E+1;"
      CDS             complement(43970..44761)
@@ -248,8 +250,8 @@ FEATURES             Location/Qualifiers
                      /note="weight=-2.54E+1;"
      CDS             complement(44996..45523)
                      /note="weight=-1.48E+4;"
-     CDS             complement(45643..45744)
-                     /note="weight=-1.13E-1;"
+     tRNA            complement(45579..45652)
+                     /note="weight=-2.00E+1;"
      CDS             complement(45719..46309)
                      /note="weight=-2.54E+5;"
      CDS             complement(46319..46945)
@@ -298,8 +300,8 @@ FEATURES             Location/Qualifiers
                      /note="weight=-3.78E+3;"
      CDS             complement(53822..54034)
                      /note="weight=-3.02E+0;"
-     CDS             54170..54298
-                     /note="weight=-6.82E-2;"
+     tRNA            complement(54199..54278)
+                     /note="weight=-2.00E+1;"
      CDS             54307..54642
                      /note="weight=-1.25E-1;"
      CDS             54812..54943
@@ -332,8 +334,8 @@ FEATURES             Location/Qualifiers
                      /note="weight=-9.20E+2;"
      CDS             complement(58425..58730)
                      /note="weight=-7.98E+2;"
-     CDS             58757..58852
-                     /note="weight=-6.20E-2;"
+     tRNA            complement(58760..58842)
+                     /note="weight=-2.00E+1;"
      CDS             58889..59002
                      /note="weight=-1.18E+0;"
      CDS             59028..59117

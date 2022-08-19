@@ -4,6 +4,8 @@ FEATURES             Location/Qualifiers
      source          1..100000
      CDS             <1..126
                      /note="weight=-3.73E+0;"
+     tRNA            117..190
+                     /note="weight=-2.00E+1;"
      CDS             217..1500
                      /note="weight=-2.79E+11;"
      CDS             complement(1497..2096)
@@ -214,8 +216,8 @@ FEATURES             Location/Qualifiers
                      /note="weight=-4.15E+11;"
      CDS             complement(81520..82968)
                      /note="weight=-4.59E+11;"
-     CDS             complement(82950..83114)
-                     /note="weight=-7.44E-2;"
+     tRNA            complement(83033..83108)
+                     /note="weight=-2.00E+1;"
      CDS             complement(83165..83647)
                      /note="weight=-1.32E+3;"
      CDS             83706..84209
