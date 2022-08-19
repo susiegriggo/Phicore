@@ -284,6 +284,7 @@ FEATURES             Location/Qualifiers
                      /note="weight=-1.16E+4;"
      CDS             99894..>100100
                      /note="weight=-6.92E+1;"
+BASE COUNT    32371 a  17790 c  17332 g  32609 t
 ORIGIN
         1 tgcagaagag actaaagtct tatctctcct aaccacttct attaccaaat ctcttctgga
        61 gtatattaat aagcaagatt ttaaggagtt atgcaatatt tagaaatgaa taagtatcaa

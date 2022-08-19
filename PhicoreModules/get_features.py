@@ -291,7 +291,7 @@ def get_rolling_deltas(genbank_path_all : str, genbank_path_tag : str, genbank_p
     for record in parse_genbank(genbank_path_all):
         df_all = get_rolling_mean_cds(record, window=2000, step=30)
         count_all = get_rolling_count_cds(record, window=2000, step=30)
-        stops_all = get_distribution_of_stops(record, window=2000, step=30)
+        #stops_all = get_distribution_of_stops(record, window=2000, step=30)
     for record in parse_genbank(genbank_path_tag):
         df_tag = get_rolling_mean_cds(record, window=2000, step=30)
         count_tag = get_rolling_count_cds(record, window=2000, step=30)
@@ -311,9 +311,11 @@ def get_rolling_deltas(genbank_path_all : str, genbank_path_tag : str, genbank_p
     df_all['Count_CDS_tag'] = count_tag['Count_CDS'] 
     df_all['Count_CDS_tga'] = count_tga['Count_CDS'] 
     df_all['Count_CDS_taa'] = count_taa['Count_CDS'] 
-    df_all['TAG_all'] = stops_all['TAG'] 
-    df_all['TGA_all'] = stops_all['TGA'] 
-    df_all['TAA_all'] = stops_all['TAA'] 
+    # df_all['TAG_all'] = stops_all['TAG'] 
+    # df_all['TGA_all'] = stops_all['TGA'] 
+    # df_all['TAA_all'] = stops_all['TAA'] 
+
+    
 
 
 
@@ -324,8 +326,7 @@ def get_rolling_deltas(genbank_path_all : str, genbank_path_tag : str, genbank_p
     df_all['tga_minus_all_count_cds'] = df_all['Count_CDS_tga'] - df_all['Count_CDS_all']
     df_all['taa_minus_all_count_cds'] = df_all['Count_CDS_taa'] - df_all['Count_CDS_all']
 
-
-
+    df_all = df_all.drop(['Mean_CDS', 'Mean_CDS_all', 'Mean_CDS_tag', 'Mean_CDS_tga', 'Mean_CDS_taa', 'Count_CDS_all', 'Count_CDS_tag', 'Count_CDS_tga', 'Count_CDS_taa'], axis=1)
 
     return pd.DataFrame(df_all)
 
