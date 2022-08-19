@@ -36,7 +36,6 @@ class GCFramePlot():
         this_seq = str(SeqIO.read(seq, 'fasta').seq)
         #adjust string to have length which is a multiple of 3 
         self.seq = self.adjustLength(this_seq)
-
         self.window_size = window_size
         self.step_size = step_size
         self.num_steps = int((len(self.seq)-window_size+step_size)/step_size)
