@@ -196,8 +196,12 @@ FEATURES             Location/Qualifiers
                      /note="weight=-5.09E+0;"
      CDS             complement(89934..90158)
                      /note="weight=-1.12E+1;"
-     CDS             complement(90155..90376)
-                     /note="weight=-1.23E+1;"
+     CDS             complement(90155..90301)
+                     /note="weight=-1.26E+1;"
+     CDS             90322..90417
+                     /note="weight=-1.11E+0;"
+     tRNA            complement(90650..90731)
+                     /note="weight=-2.00E+1;"
      CDS             90745..90966
                      /note="weight=-5.65E+0;"
      CDS             91033..91128
@@ -226,10 +230,14 @@ FEATURES             Location/Qualifiers
                      /note="weight=-6.68E+1;"
      CDS             94205..94528
                      /note="weight=-2.56E+2;"
+     tRNA            94538..94609
+                     /note="weight=-2.00E+1;"
+     CDS             complement(94885..94983)
+                     /note="weight=-6.39E-2;"
      CDS             94996..95106
                      /note="weight=-8.90E+0;"
-     CDS             complement(95249..95341)
-                     /note="weight=-9.72E-1;"
+     tRNA            95175..95257
+                     /note="weight=-2.00E+1;"
      CDS             95357..95803
                      /note="weight=-5.55E+2;"
      CDS             complement(95892..96014)
