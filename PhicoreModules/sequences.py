@@ -3,7 +3,7 @@ import sys
 import gzip
 
 import subprocess
-from .rob_error import SequencePairError, FastqFormatError
+from .error import SequencePairError, FastqFormatError
 from .colours import colours, message
 
 __author__ = 'Rob Edwards'
