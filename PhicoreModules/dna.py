@@ -59,4 +59,15 @@ def kmers(dna, k):
 
     return counts
 
+def non_overlapping_kmers(dna, k):
+    """
+    Given a dna sequence return a list of all non-overlapping (sequential) kmers
 
+    This method does not reverse complement, it only checks the strand you supply.
+
+    :param dna: the DNA sequence
+    :param k: the length of the kmer
+    :return: a list of the kmers
+    """
+
+    return [(dna[i:i+k]) for i in range(0, len(dna), k)]
