@@ -176,8 +176,8 @@ FEATURES             Location/Qualifiers
                      /note="weight=-9.29E-1;"
      CDS             88071..88193
                      /note="weight=-6.13E-2;"
-     CDS             88211..88354
-                     /note="weight=-1.25E+0;"
+     tRNA            complement(88277..88348)
+                     /note="weight=-2.00E+1;"
      CDS             complement(88414..89160)
                      /note="weight=-5.00E+4;"
      CDS             complement(89172..89402)
@@ -186,8 +186,10 @@ FEATURES             Location/Qualifiers
                      /note="weight=-1.74E+3;"
      CDS             complement(89783..89992)
                      /note="weight=-1.29E+2;"
-     CDS             complement(89992..90261)
-                     /note="weight=-7.57E-1;"
+     CDS             complement(89992..90198)
+                     /note="weight=-3.81E+0;"
+     tRNA            complement(90228..90316)
+                     /note="weight=-2.00E+1;"
      CDS             complement(90380..90508)
                      /note="weight=-3.14E+0;"
      CDS             90535..90681
@@ -206,40 +208,64 @@ FEATURES             Location/Qualifiers
                      /note="weight=-3.57E+1;"
      CDS             92556..92948
                      /note="weight=-5.59E+1;"
-     CDS             93092..93187
-                     /note="weight=-1.14E-1;"
+     tRNA            93093..93164
+                     /note="weight=-2.00E+1;"
      CDS             93187..93276
                      /note="weight=-5.05E+0;"
      CDS             93287..93445
                      /note="weight=-1.45E-1;"
      CDS             93536..94042
                      /note="weight=-3.64E+2;"
-     CDS             94085..94225
-                     /note="weight=-1.94E-1;"
-     CDS             94231..94410
-                     /note="weight=-9.24E+0;"
-     CDS             94451..94543
-                     /note="weight=-4.44E+0;"
+     tRNA            94044..94130
+                     /note="weight=-2.00E+1;"
+     tRNA            94137..94209
+                     /note="weight=-2.00E+1;"
+     tRNA            94215..94288
+                     /note="weight=-2.00E+1;"
+     tRNA            94357..94430
+                     /note="weight=-2.00E+1;"
+     tRNA            94437..94508
+                     /note="weight=-2.00E+1;"
      CDS             94530..94862
                      /note="weight=-1.01E+3;"
+     tRNA            94866..94936
+                     /note="weight=-2.00E+1;"
      CDS             complement(94927..95019)
                      /note="weight=-6.20E-2;"
-     CDS             complement(95113..95241)
-                     /note="weight=-1.66E-1;"
-     CDS             95277..95453
-                     /note="weight=-4.00E+0;"
+     tRNA            95027..95099
+                     /note="weight=-2.00E+1;"
+     tRNA            95102..95178
+                     /note="weight=-2.00E+1;"
+     tRNA            95183..95256
+                     /note="weight=-2.00E+1;"
+     tRNA            95263..95335
+                     /note="weight=-2.00E+1;"
+     tRNA            95346..95418
+                     /note="weight=-2.00E+1;"
+     tRNA            95424..95495
+                     /note="weight=-2.00E+1;"
      CDS             95470..95619
                      /note="weight=-2.85E-1;"
+     tRNA            95610..95682
+                     /note="weight=-2.00E+1;"
      CDS             95697..95864
                      /note="weight=-1.72E+1;"
+     tRNA            95866..95940
+                     /note="weight=-2.00E+1;"
      CDS             96016..96492
                      /note="weight=-1.82E+3;"
-     CDS             96591..96683
-                     /note="weight=-5.26E+0;"
+     tRNA            96494..96572
+                     /note="weight=-2.00E+1;"
+     tRNA            96577..96647
+                     /note="weight=-2.00E+1;"
+     tRNA            96654..96726
+                     /note="weight=-2.00E+1;"
      CDS             96729..97145
                      /note="weight=-6.52E+3;"
-     CDS             complement(97115..97297)
-                     /note="weight=-1.38E-1;"
+     tRNA            97131..97202
+                     /note="weight=-2.00E+1;"
+     tRNA            97211..97297
+                     /note="weight=-2.00E+1;"
      CDS             97317..97466
                      /note="weight=-9.14E+0;"
      CDS             97481..97729
